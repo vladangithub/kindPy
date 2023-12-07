@@ -31,18 +31,38 @@
 # d1, d2, d3, d4, d5 = map(int, input().split())
 # print(min(d1, d2, d3, d4, d5))
 
-d1, d2, d3, d4, d5 = map(int, input().split())
-print(min(d1, d2, d3, d4, d5))
+# d1, d2, d3, d4, d5 = map(int, input().split())
+# print(max(d1, d2, d3, d4, d5))
+
+# a, b = map(int, input().split())
+# c = (a ** 2 + b ** 2) ** (1 / 2)
+# print(f'{c:.1f}')
+
+# print(f'{(a ** 2 + b ** 2) ** (1 / 2):.1f}')
+
+#
+# c = (a ** 2 + b ** 2) ** (1 / 2)
+# print(round(c, 2))
+
+# n, k = map(int, input().split())
+# import math
+# c = math.factorial(n) / (math.factorial(k) * math.factorial(n - k))
+# print(int(c))
 
 
+# n1 = math.factorial(n)
+# k1 = math.factorial(k)
+# nk = math.factorial(n - k)
+#
+# print(int(n1 / (k * nk)))
 
+# n, m = map(int, input().split())
+# import math
+# print(math.ceil((n + m) / 20))
 
+x = int(input())
 
-
-
-
-
-
+print(int( 500 / ( x - (x * 0.1))))
 
 
 
