@@ -74,5 +74,39 @@
 # print("Hello", end=" ")
 # print("Balakirev")
 
+# s1, s2 = map(str.strip, input().split())
+#
+# print("Word 1:", s1, "|","Word 2:", s2)
+
+# n, m = map(int, input().split())
+# print(n ** m)
+
+# q, w = map(float, input().split())
+# print(q + w)
+
+# X, Y = map(int, input().split())
+# q = print(X + Y + (X * 2) + (Y * 4))
+
+# q = float(input())
+# # w = float(input())
+# e = 2 * (q + w)
+# print(f'{e:.1f}')
+
+# import math
+# print(f'{math.pi:.3f}')
+
+# q = float(input())
+# print("Вы ввели число ", q)
+
+q = abs(int(float(input()))) % 3 == 0
+print(q)
+
+
+
+
+
+
+
+
 
 
