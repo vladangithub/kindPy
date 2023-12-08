@@ -98,14 +98,21 @@
 # q = float(input())
 # print("Вы ввели число ", q)
 
-q = abs(int(float(input()))) % 3 == 0
-print(q)
+# q = abs(int(float(input()))) % 3 == 0
+# print(q)
 
+# import math
+# q = float(input())
+# w = round(q)
+# print(w)
+# e = w > q
+# print(e)
 
+# a, b = map(int, input().split())
+# print(0 == a % b)
 
-
-
-
+# a, b, c = map(int, input().split())
+# print(a < (b + c) and b < (a + c) and c < (b + a))
 
 
 
