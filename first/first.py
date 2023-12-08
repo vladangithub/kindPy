@@ -60,12 +60,19 @@
 # import math
 # print(math.ceil((n + m) / 20))
 
-x = int(input())
+# x = int(input())
+#
+# print(int( 500 / ( x - (x * 0.1))))
 
-print(int( 500 / ( x - (x * 0.1))))
+# a = 7
+# b = -4
+# c = 3
+# print(a, b, c, sep="\n")
 
-
-
+# s1 = "Hello"
+# s2 = "Balakirev"
+# print("Hello", end=" ")
+# print("Balakirev")
 
 
 
