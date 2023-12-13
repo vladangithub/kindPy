@@ -147,7 +147,19 @@
 # t = ', '
 # print("Коды: ", q + ' = ', e, t, w + ' = ', r, sep='')
 
+# q = str(input())
+# w = q[0]
+# e = q[-1]
+# print(str(w + e))
 
+# q = str(input())
+# print(q[:4])
+
+# q = str(input())
+# print(q[-3:])
+
+q = str(input())
+print(q[1::2])
 
 
 
