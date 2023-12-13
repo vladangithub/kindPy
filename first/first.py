@@ -114,6 +114,60 @@
 # a, b, c = map(int, input().split())
 # print(a < (b + c) and b < (a + c) and c < (b + a))
 
+# 8. String
+# s1 = str(input())
+# s2 = str(input())
+# print(s1 + ' ' + s2)
+
+# q = str(input())
+# w = str(input())
+#
+# print((q + ' ') * 2 + (w + ' ') * 3, sep = ' ')
+
+
+# q, w = map(str, input().split())
+# 12.8 print((q + ' ') * 2 + (w + ' ') * 3, sep = ' ')
+
+# 12.9  print("Переменная a =",a + ", переменная b =", b)
+
+# q = str(input())
+# w = len(q)
+# print("Строка:",q + ". Длина:",w )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
