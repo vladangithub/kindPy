@@ -130,17 +130,22 @@
 
 # 12.9  print("Переменная a =",a + ", переменная b =", b)
 
-# q = str(input())
+# 2.10 q = str(input())
 # w = len(q)
 # print("Строка:",q + ". Длина:",w )
 
+# q, w = map(str, input().split())
+# e = q in w
+# r = q == w
+# t = q > w
+# y = q < w
+# print(e, r, t, y)
 
-
-
-
-
-
-
+# q, w = map(str, input().split())
+# e = ord(q)
+# r = ord(w)
+# t = ', '
+# print("Коды: ", q + ' = ', e, t, w + ' = ', r, sep='')
 
 
 
