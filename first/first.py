@@ -170,19 +170,68 @@
 # text_1 = text[:5]
 # print(text_1[::-1])
 
-q, w = map(str, input().split())
-e = int(len(q))
-print(w[:e])
+# 3.2.10 q, w = map(str, input().split())
+# e = int(len(q))
+# print(w[:e])
 
+# q, w = map(str, input().split())
+# e = int(len(w))
+# r = q[:e]
+# t = r[1::2]
+# y = w[1::2]
+# print(t)
+# print(y)
+# print(t == y)
 
+# msg = 'abracadabra'
+# msg.count('ra')
+# 2
+# msg.count('ra', 4)
+# 1
+# msg.count('ra', 4, 10)
+# 0
+# msg.count('ra', 4, 11)
+# 1
+# msg.find('br')
+# 1
+# msg
+# 'abracadabra'
+# msg.find('br', 2)
+# 8
+# msg.find('brr', 2)
+# -1
+# msg.find('br', 2)
+# 8
+# msg.rfind('br', 2)
+# 8
+# msg.index('brr')
+# Traceback (most recent call last):
+#   File "C:\PyCharm 2023.1\plugins\python\helpers\pydev\pydevconsole.py", line 364, in runcode
+#     coro = func()
+#            ^^^^^^
+#   File "<input>", line 1, in <module>
+# ValueError: substring not found
 
-
-
-
-
-
-
-
+# msg
+# 'abracadabra'
+# msg.replace('a', 'o')
+# 'obrocodobro'
+# msg.replace('ab', 'AB')
+# 'ABracadABra'
+# msg.replace('ab', '')
+# 'racadra'
+# msg.replace('a', 'o', 3)
+# 'obrocodabra'
+# msg.isalpha()
+# True
+# msg
+# 'abracadabra'
+# "hello world".isalpha()
+# False
+# '5.6'.isdigit()
+# False
+# '56'.isdigit()
+# True
 
 
 
