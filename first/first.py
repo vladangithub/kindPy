@@ -233,8 +233,35 @@
 # '56'.isdigit()
 # True
 
-
-
+# d = 'abc'
+# d.rjust(5)
+# '  abc'
+# d = '12'
+# d.rjust(4, '0')
+# '0012'
+# d.rjust(1)
+# '12'
+# d.ljust(8, '0')
+# '12000000'
+# "Ivanov Ivan Ivanovich".split()
+# ['Ivanov', 'Ivan', 'Ivanovich']
+# digs = "1,  2,3 , 5,   8"
+# digs.replace(' ', '').split(',')
+# ['1', '2', '3', '5', '8']
+# d = digs.replace(' ', '').split(',')
+# d
+# ['1', '2', '3', '5', '8']
+# ', '.join(d)
+# '1, 2, 3, 5, 8'
+# fio = "Ivanov Ivan Ivanovich"
+# ", ".join(fio.split())
+# 'Ivanov, Ivan, Ivanovich'
+# "     hello world      \n".strip()
+# 'hello world'
+# "     hello world      \n".rstrip()
+# '     hello world'
+# "     hello world      \n".lstrip()
+# 'hello world      \n'
 
 
 
