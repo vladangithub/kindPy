@@ -263,6 +263,39 @@
 # "     hello world      \n".lstrip()
 # 'hello world      \n'
 
+# s = str(input())
+# q = s.title()
+# print(q)
+
+# s = str(input())
+# print(s.count('-'))
+
+# s = str(input())
+# print(s.find('ra'))
+
+# s = str(input())
+# q = s.replace("---", '-')
+# print(q.replace("--", '-'))
+#
+# print(input().replace('---','-').replace('--','-'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
