@@ -158,12 +158,21 @@
 # q = str(input())
 # print(q[-3:])
 
-q = str(input())
-print(q[1::2])
+# q = str(input())
+# print(q[1::2])
+
+# q = str(input())
+# e = str(input())
+# print(q[::2] + " " + e[1::2])
 
 
+# text = str(input())
+# text_1 = text[:5]
+# print(text_1[::-1])
 
-
+q, w = map(str, input().split())
+e = int(len(q))
+print(w[:e])
 
 
 
